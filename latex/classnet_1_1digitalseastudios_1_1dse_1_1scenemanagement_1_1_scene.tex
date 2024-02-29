@@ -1,0 +1,76 @@
+\doxysection{net.\+digitalseastudios.\+dse.\+scenemanagement.\+Scene Class Reference}
+\hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene}{}\label{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene}\index{net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_a60f62ea7cf93dfe9959f65c7a0c50a1c}{add\+Entity}} (String label, \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_game_entity}{Game\+Entity}} entity)
+\item 
+\mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_game_entity}{Game\+Entity}} \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_ae5b628c680404a9cf1a6ffdfac252e2d}{get\+Entity}} (String label)
+\item 
+void \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_a9923dbcc8d5e237d3919d36f912f5a53}{remove\+Entity}} (String label)
+\item 
+void \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_a457e59b9ac262e53288b61093a912f33}{tick}} ()
+\item 
+void \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_af4b7c8b1e3a08de8fe555ccce5851864}{render}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a scene in Digital Sea Studios. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_a60f62ea7cf93dfe9959f65c7a0c50a1c}\label{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_a60f62ea7cf93dfe9959f65c7a0c50a1c} 
+\index{net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}!addEntity@{addEntity}}
+\index{addEntity@{addEntity}!net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}}
+\doxysubsubsection{\texorpdfstring{addEntity()}{addEntity()}}
+{\footnotesize\ttfamily void net.\+digitalseastudios.\+dse.\+scenemanagement.\+Scene.\+add\+Entity (\begin{DoxyParamCaption}\item[{String}]{label,  }\item[{\mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_game_entity}{Game\+Entity}}}]{entity }\end{DoxyParamCaption})}
+
+Adds an {\ttfamily \doxylink{}{Game\+Entity}} to the {\ttfamily \doxylink{}{Scene}}. 
+\begin{DoxyParams}{Parameters}
+{\em label} & -\/ The name of the {\ttfamily \doxylink{}{Game\+Entity}}. \\
+\hline
+{\em entity} & -\/ The {\ttfamily \doxylink{}{Game\+Entity}} to add. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_ae5b628c680404a9cf1a6ffdfac252e2d}\label{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_ae5b628c680404a9cf1a6ffdfac252e2d} 
+\index{net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}!getEntity@{getEntity}}
+\index{getEntity@{getEntity}!net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}}
+\doxysubsubsection{\texorpdfstring{getEntity()}{getEntity()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_game_entity}{Game\+Entity}} net.\+digitalseastudios.\+dse.\+scenemanagement.\+Scene.\+get\+Entity (\begin{DoxyParamCaption}\item[{String}]{label }\end{DoxyParamCaption})}
+
+Gets an {\ttfamily \doxylink{}{Game\+Entity}}. 
+\begin{DoxyParams}{Parameters}
+{\em label} & -\/ The name of the {\ttfamily \doxylink{}{Game\+Entity}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Either the {\ttfamily \doxylink{}{Game\+Entity}} or {\ttfamily \doxylink{}{null}}. 
+\end{DoxyReturn}
+\Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_a9923dbcc8d5e237d3919d36f912f5a53}\label{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_a9923dbcc8d5e237d3919d36f912f5a53} 
+\index{net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}!removeEntity@{removeEntity}}
+\index{removeEntity@{removeEntity}!net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}}
+\doxysubsubsection{\texorpdfstring{removeEntity()}{removeEntity()}}
+{\footnotesize\ttfamily void net.\+digitalseastudios.\+dse.\+scenemanagement.\+Scene.\+remove\+Entity (\begin{DoxyParamCaption}\item[{String}]{label }\end{DoxyParamCaption})}
+
+Removes an {\ttfamily \doxylink{}{Game\+Entity}}. 
+\begin{DoxyParams}{Parameters}
+{\em label} & -\/ The name of the {\ttfamily \doxylink{}{Game\+Entity}}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_af4b7c8b1e3a08de8fe555ccce5851864}\label{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_af4b7c8b1e3a08de8fe555ccce5851864} 
+\index{net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}!render@{render}}
+\index{render@{render}!net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void net.\+digitalseastudios.\+dse.\+scenemanagement.\+Scene.\+render (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renders the {\ttfamily \doxylink{}{Scene}}. \Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_a457e59b9ac262e53288b61093a912f33}\label{classnet_1_1digitalseastudios_1_1dse_1_1scenemanagement_1_1_scene_a457e59b9ac262e53288b61093a912f33} 
+\index{net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}!tick@{tick}}
+\index{tick@{tick}!net.digitalseastudios.dse.scenemanagement.Scene@{net.digitalseastudios.dse.scenemanagement.Scene}}
+\doxysubsubsection{\texorpdfstring{tick()}{tick()}}
+{\footnotesize\ttfamily void net.\+digitalseastudios.\+dse.\+scenemanagement.\+Scene.\+tick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Ticks the {\ttfamily \doxylink{}{Scene}}. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+BAMit/\+Documents/\+Java\+Projects/\+Digital\+Sea\+Engine/src/net/digitalseastudios/dse/scenemanagement/Scene.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,125 @@
+\doxysection{net.\+digitalseastudios.\+dse.\+Renderer Class Reference}
+\hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1_renderer}{}\label{classnet_1_1digitalseastudios_1_1dse_1_1_renderer}\index{net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a5807694e5e263514a9e3230358a436c9}{Renderer}} (int width, int height)
+\item 
+void \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a4889bf1dea35c5175174526b14d9ea0a}{set\+Pixel}} (int x, int y, int color)
+\item 
+void \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a26f0383508f6351c7fb0c71cfb6e153a}{clear}} ()
+\item 
+void \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a4122fd52303b020a46520aca628413c8}{fill\+Rect}} (int x, int y, int width, int height, int color)
+\item 
+void \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a80f88765769dd2e6e8ebe3cf5d89505e}{draw\+Sprite}} (int x, int y, \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1graphics_1_1_sprite}{Sprite}} sprite)
+\item 
+void \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_aee0e555d5ab31bbda394166800db2964}{draw\+Sprite}} (\mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1maths_1_1_vector2}{Vector2}} position, \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1graphics_1_1_sprite}{Sprite}} sprite)
+\item 
+void \mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_ac66c98f08720f4c905a3d59dd3686f47}{render}} (\mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_game_window}{Game\+Window}} window)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The renderer of the application. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a5807694e5e263514a9e3230358a436c9}\label{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a5807694e5e263514a9e3230358a436c9} 
+\index{net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}!Renderer@{Renderer}}
+\index{Renderer@{Renderer}!net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}}
+\doxysubsubsection{\texorpdfstring{Renderer()}{Renderer()}}
+{\footnotesize\ttfamily net.\+digitalseastudios.\+dse.\+Renderer.\+Renderer (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+Creates a new {\ttfamily \doxylink{}{Renderer}}. 
+\begin{DoxyParams}{Parameters}
+{\em width} & -\/ The width of the {\ttfamily \doxylink{}{Game\+Window}} to render. \\
+\hline
+{\em height} & -\/ The height of the {\ttfamily \doxylink{}{Game\+Window}} to render. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a26f0383508f6351c7fb0c71cfb6e153a}\label{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a26f0383508f6351c7fb0c71cfb6e153a} 
+\index{net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}!clear@{clear}}
+\index{clear@{clear}!net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void net.\+digitalseastudios.\+dse.\+Renderer.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Clears the {\ttfamily \doxylink{}{Game\+Window}}. \Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a80f88765769dd2e6e8ebe3cf5d89505e}\label{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a80f88765769dd2e6e8ebe3cf5d89505e} 
+\index{net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}!drawSprite@{drawSprite}}
+\index{drawSprite@{drawSprite}!net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}}
+\doxysubsubsection{\texorpdfstring{drawSprite()}{drawSprite()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void net.\+digitalseastudios.\+dse.\+Renderer.\+draw\+Sprite (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{\mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1graphics_1_1_sprite}{Sprite}}}]{sprite }\end{DoxyParamCaption})}
+
+Draws a {\ttfamily \doxylink{}{Sprite}} on {\ttfamily \doxylink{}{Game\+Window}}. 
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ The X position of the {\ttfamily \doxylink{}{Sprite}}. \\
+\hline
+{\em y} & -\/ The Y position of the {\ttfamily \doxylink{}{Sprite}}. \\
+\hline
+{\em sprite} & -\/ The {\ttfamily \doxylink{}{Sprite}} to render. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_aee0e555d5ab31bbda394166800db2964}\label{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_aee0e555d5ab31bbda394166800db2964} 
+\index{net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}!drawSprite@{drawSprite}}
+\index{drawSprite@{drawSprite}!net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}}
+\doxysubsubsection{\texorpdfstring{drawSprite()}{drawSprite()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void net.\+digitalseastudios.\+dse.\+Renderer.\+draw\+Sprite (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1maths_1_1_vector2}{Vector2}}}]{position,  }\item[{\mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1graphics_1_1_sprite}{Sprite}}}]{sprite }\end{DoxyParamCaption})}
+
+Draws a {\ttfamily \doxylink{}{Sprite}} on {\ttfamily \doxylink{}{Game\+Window}}. 
+\begin{DoxyParams}{Parameters}
+{\em position} & -\/ The position of the {\ttfamily \doxylink{}{Sprite}}. \\
+\hline
+{\em sprite} & -\/ The {\ttfamily \doxylink{}{Sprite}} to render. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a4122fd52303b020a46520aca628413c8}\label{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a4122fd52303b020a46520aca628413c8} 
+\index{net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}!fillRect@{fillRect}}
+\index{fillRect@{fillRect}!net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}}
+\doxysubsubsection{\texorpdfstring{fillRect()}{fillRect()}}
+{\footnotesize\ttfamily void net.\+digitalseastudios.\+dse.\+Renderer.\+fill\+Rect (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{int}]{color }\end{DoxyParamCaption})}
+
+Fills a rect on {\ttfamily \doxylink{}{Game\+Window}}. 
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ The x position. \\
+\hline
+{\em y} & -\/ The y position. \\
+\hline
+{\em width} & -\/ The width of the rect. \\
+\hline
+{\em height} & -\/ The height of the rect. \\
+\hline
+{\em color} & -\/ The color of the rect. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_ac66c98f08720f4c905a3d59dd3686f47}\label{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_ac66c98f08720f4c905a3d59dd3686f47} 
+\index{net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}!render@{render}}
+\index{render@{render}!net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void net.\+digitalseastudios.\+dse.\+Renderer.\+render (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classnet_1_1digitalseastudios_1_1dse_1_1_game_window}{Game\+Window}}}]{window }\end{DoxyParamCaption})}
+
+Renders the current frame. 
+\begin{DoxyParams}{Parameters}
+{\em window} & -\/ The {\ttfamily \doxylink{}{Game\+Window}} to render to. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a4889bf1dea35c5175174526b14d9ea0a}\label{classnet_1_1digitalseastudios_1_1dse_1_1_renderer_a4889bf1dea35c5175174526b14d9ea0a} 
+\index{net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}!setPixel@{setPixel}}
+\index{setPixel@{setPixel}!net.digitalseastudios.dse.Renderer@{net.digitalseastudios.dse.Renderer}}
+\doxysubsubsection{\texorpdfstring{setPixel()}{setPixel()}}
+{\footnotesize\ttfamily void net.\+digitalseastudios.\+dse.\+Renderer.\+set\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{color }\end{DoxyParamCaption})}
+
+Sets a specific pixel on the {\ttfamily \doxylink{}{Game\+Window}}. 
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ The x position. \\
+\hline
+{\em y} & -\/ The y position. \\
+\hline
+{\em color} & -\/ The new color of the pixel. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+BAMit/\+Documents/\+Java\+Projects/\+Digital\+Sea\+Engine/src/net/digitalseastudios/dse/Renderer.\+java\end{DoxyCompactItemize}
